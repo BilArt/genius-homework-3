@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <nav class="header-nav">
+            <a href="#"
+              ><img
+                src="./images/logo.svg"
+                alt="Логотип косметологічної клініки"
+              />
+            </a>
+
+            <ul class="header-menu">
+              <li>
+                <a class="header-link" href="#reincarnation-section">Про нас</a>
+              </li>
+              <li>
+                <a class="header-link" href="#choosing-section">Чому ми</a>
+              </li>
+              <li>
+                <a class="header-link" href="#procedures-section"
+                  >Наші процедури</a
+                >
+              </li>
+              <li><a class="header-link" href="#contacts">Контакти</a></li>
+            </ul>
+
+            <ul class="header-icons">
+              <li>
+                <a href="#">
+                  <svg class="header-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-telephone"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="http://facebook.com">
+                  <svg class="header-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="http://instagram.com">
+                  <svg class="header-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <div class="container">
+        <p>Косметологічна клініка</p>
+
+        <h1>Beauty<br />Zone</h1>
+
+        <button class="hero-button" id="open-modal-btn">Замовити дзвінок</button>
+
+        <p class="hero-text">
+          Запишись та отримай безкоштовну консультацію нашого косметолога
+        </p>
+      </div>
+    </section>
+
+    <section id="reincarnation-section" class="reincarnation-section wrapper">
+      <div class="container">
+        <div class="reincarnation-container">
+          <div class="reincarnation-main">
+            <h2 class="title">
+              Перевтілюйтесь<br />
+              в <span>Beauty Zone!</span>
+            </h2>
+            <p class="reincarnation-text">
+              Наша косметологічна клініка пропонує вам професійні послуги з
+              догляду за шкірою обличчя та тіла.
+            </p>
+
+            <p class="reincarnation-text">
+              B <span>beauty zone</span> ми гарантуємо найвищі стандарти якості
+              та приємний сервіс. Наші косметологічні процедури та препарати
+              допоможуть вам підтримувати свою красу та молодість. З нами краса
+              назавжди!
+            </p>
+          </div>
+
+          <div class="block-pictures">
+            <div class="star-1"></div>
+            <div class="star-2"></div>
+            <div class="star-3"></div>
+            <div class="image-container">
+              <div class="image-before"></div>
+            </div>
+            <div class="image-container">
+              <div class="image-after"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--
+          <div class="block-pictures">
+            <img
+              class="reincarnation-pic-1"
+              src="./images/reincarnation-section/before.jpg"
+              alt="Фото до перевтілювання"
+            />
+            <img
+              class="reincarnation-pic-2"
+              src="./images/reincarnation-section/after.jpg"
+              alt="Фото після перевтілювання"
+            />
+          </div>
+These are the same pictures but in native img!!!-->
+    </section>
+
+    <section id="choosing-section" class="choosing-section">
+      <!-- SVG Method! -->
+      <!--<svg
+        class="choosing__waves"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1440"
+        height="1507"
+        viewBox="0 0 1440 1507"
+        fill="none"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M1015.22 1337.67C843.995 1420.41 681.707 1522.18 492.376 1504.43C294.908 1485.92 120.319 1385.32 -15.7281 1241.03C-170.733 1076.62 -313.597 883.153 -306.334 657.304C-298.462 412.497 -193.856 145.53 23.1542 31.9091C227.164 -74.9055 448.972 123.559 678.526 141.655C938.036 162.113 1224.83 -17.697 1429.76 142.796C1655.09 319.273 1777.41 658.366 1683.59 928.798C1594.61 1185.29 1259.68 1219.54 1015.22 1337.67Z"
+          fill="url(#paint0_linear_64_137)"
+          fill-opacity="0.2"
+        />
+        <defs>
+          <lineargradient
+            id="paint0_linear_64_137"
+            x1="851"
+            y1="-23.0002"
+            x2="851"
+            y2="1197.5"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0.334676" stop-color="#2B7FFF" />
+            <stop offset="0.634564" stop-color="#2B7FFF" stop-opacity="0" />
+            <stop offset="0.894715" stop-color="#2B7FFF" stop-opacity="0" />
+          </lineargradient>
+        </defs>
+      </svg>-->
+      <div class="container">
+        <div class="choosing-container">
+          <h2 class="title center">Чому люди<br /><span>обирають нас</span></h2>
+          <ul class="choosing-list">
+            <li class="choosing-item">
+              <article class="choosing-card">
+                <img
+                  src="./images/section-choosing/science.svg"
+                  alt="Іконка науки"
+                />
+                <p class="choosing-text">
+                  Всі наші косметологи мають вищу медичну освіту та стаж роботи
+                  від 5 років
+                </p>
+              </article>
+            </li>
+            <li class="choosing-item">
+              <article class="choosing-card">
+                <img
+                  src="./images/section-choosing/bottle.svg"
+                  alt="Іконка косметики"
+                />
+                <p class="choosing-text">
+                  Використовуємо тільки професійне обладнання та косметику,
+                  перевірену часом
+                </p>
+              </article>
+            </li>
+            <li class="choosing-item">
+              <article class="choosing-card">
+                <img
+                  src="./images/section-choosing/crown.svg"
+                  alt="Іконка лідера"
+                />
+                <p class="choosing-text">
+                  Наша мета - підкреслити переваги та приховати недоліки, а не
+                  переробити
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="procedures-section" class="procedures-section">
+      <div class="container">
+        <h2 class="title center">Наші <span>процедури</span></h2>
+        <div class="procedures-container">
+          <div class="carousel-block">
+            <button class="carousel-button" type="button">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
+            </button>
+            <div class="procedures-carousel">
+              <ul class="procedures-list">
+                <li class="procedures-item">
+                  <article class="procedures__card-1">
+                    <p class="procedures-text">Маски для обличчя</p>
+                  </article>
+                </li>
+                <li class="procedures-item">
+                  <article class="procedures__card-2">
+                    <p class="procedures-text">Ін'єкції для обличчя</p>
+                  </article>
+                </li>
+                <li class="procedures-item">
+                  <article class="procedures__card-3">
+                    <p class="procedures-text">Очищення обличчя</p>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <button class="carousel-button" type="button">
+              <svg class="transform-180" width="16" height="16">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
+            </button>
+          </div>
+
+          <div class="pagination">
+            <ul class="pagination-list">
+              <li class="pagination-item">
+                <svg width="11" height="11">
+                  <use href="./images/icons.svg#icon-pagination-button"></use>
+                </svg>
+              </li>
+              <li class="pagination-item">
+                <svg width="11" height="11">
+                  <use href="./images/icons.svg#icon-pagination-button"></use>
+                </svg>
+              </li>
+              <li class="pagination-item">
+                <svg width="11" height="11">
+                  <use href="./images/icons.svg#icon-pagination-button"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="find_us-section">
+      <div class="container">
+        <h2 class="title center">Як нас <span>знайти</span></h2>
+        <div class="find-us__container">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325768422495!2d30.513561884541872!3d50.44235650880361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sdk!4v1687960760801!5m2!1sru!2sdk"
+            width="605"
+            height="490"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <div class="form-block">
+            <form class="form">
+              <h3 class="form-title">
+                Запишіться <span>безкоштовно</span> <br />та отримайте подарунок
+              </h3>
+              <div class="form-field">
+                <label class="form-label visually-hidden" for="user-name">Ваше ім'я та прізвище</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
+                  placeholder="Ваше ім'я та прізвище"
+                  required
+                />
+              </div>
+              <div class="form-field">
+                <label class="form-label visually-hidden" for="user-tel">Ваш номер телефону</label>
+                <input
+                  class="form-input"
+                  type="tel"
+                  name="user-tel"
+                  id="user-tel"
+                  pattern="^\+[0-9]{12}"
+                  placeholder="Ваш номер телефону"
+                  required
+                />
+              </div>
+              <div class="form-field">
+                <label class="form-label visually-hidden" for="user-email">Ваша електронна пошта</label>
+                <input
+                  class="form-input"
+                  type="email"
+                  name="user-email"
+                  id="user-email"
+                  placeholder="Ваша електронна пошта"
+                  required
+                />
+              </div>
+
+              <button class="find_us-button">Записатись безкоштовно</button>
+              <p class="form-terms">
+                Натискаючи на кнопку я погоджуюсь
+                <a class="form-terms-link" href="#">з політикою конфіденційності</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <nav class="footer-nav">
+            <div class="footer-logo">
+              <a href="#"
+                ><img src="./images/logo.svg" alt="Логотип косметичної клініки"
+              /></a>
+            </div>
+            <ul class="footer-menu">
+              <li class="footer__menu-item">
+                <a class="footer-link" href="#reincarnation-section">Про нас</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer-link" href="#choosing-section">Чому ми</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer-link" href="#procedures-section"
+                  >Наші процедури</a
+                >
+              </li>
+              <li><a class="footer-link" href="#contacts">Контакти</a></li>
+            </ul>
+          </nav>
+
+          <address class="footer-address" id="contacts">
+            <ul class="address-list">
+              <li class="address-item">
+                <a class="address-link" href="tel:+380960000007"
+                  >+ 38 (096) 000 00 07</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-link" href="mailto:beautyzone@gmail.com"
+                  >beautyzone@gmail.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a
+                  class="address-link"
+                  href="https://goo.gl/maps/vzVkcho9cadoVENX8"
+                  target="_blank"
+                >
+                  Україна, м. Київ, вул. Тараса Шевченка 5</a
+                >
+              </li>
+              <li class="address-item">
+                <ul class="footer__icons-list">
+                  <li>
+                    <a href="#">
+                      <svg class="address-icon" width="42" height="42">
+                        <use href="./images/icons.svg#icon-telephone"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://facebook.com">
+                      <svg class="address-icon" width="42" height="42">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://instagram.com">
+                      <svg class="address-icon" width="42" height="42">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="address-info">
+              <a class="address-link" href="#" target="_blank">
+                Політика конфіденційності</a>
+              <p class="address-copyright">&copy; 2022 Дані захищені</p>
+            </div>
+          </address>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" id="modal-window">
+      <div class="modal__box">
+        <button class="modal__close-btn" id="close-modal-btn">
+          <svg width="18" height="18" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z" fill="#333333"/>
+            <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333"/>
+            </svg>                      
+        </button>
+        <h2 class="modal__title">Замовити дзвінок</h2>
+        <p class="modal__text">Запишіться <span>безкоштовно</span>
+          <br>та отримайте подарунок</p>
+
+          <form name="modal-form" autocomplete="off">
+            <div class="form-field">
+              <label class="form-label visually-hidden" for="input-user-name">Ваше ім'я та прізвище</label>
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="input-user-name"
+                pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
+                placeholder="Ваше ім'я та прізвище"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label class="form-label visually-hidden" for="input-user-tel">Ваш номер телефону</label>
+              <input
+                class="form-input"
+                type="tel"
+                name="user-tel"
+                id="input-user-tel"
+                pattern="^\+[0-9]{12}"
+                placeholder="Ваш номер телефону"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label class="form-label visually-hidden" for="input-user-email">Ваша електронна пошта</label>
+              <input
+                class="form-input"
+                type="email"
+                name="user-email"
+                id="input-user-email"
+                placeholder="Ваша електронна пошта"
+                required
+              />
+            </div>
+  
+            <button class="form-button button-order-call" type="submit">Записатись безкоштовно</button>
+  
+            <p class="form-terms">
+              Натискаючи на кнопку я погоджуюсь
+              <a class="form-terms-link" href="#">з політикою конфіденційності</a>
+            </p>
+          </form>
+
+      </div>
+    </div>
+    <!--
+        <button class="modal-btn-close" type="button">Close</button>
+        <h2>Замовити дзвінок</h2>
+        <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+        <form name="modal-form" autocomplete="off">
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-name">Ім'я</label>
+            <input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Ім'я"
+              minlength="2"
+              maxlength="20"
+              required
+            />
+          </div>
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-tel">Телефон</label>
+            <input
+              class="form-input"
+              type="tel"
+              name="user-tel"
+              id="user-tel"
+              pattern="^\+[0-9]{12}"
+              placeholder="Телефон"
+              required
+            />
+          </div>
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-email">Електрона пошта</label>
+            <input
+              class="form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Електрона пошта"
+              required
+            />
+          </div>
+
+          <button class="form-button button-order-call" type="submit" disabled>Замовити дзвінок</button>
+
+          <p class="form-terms">
+            Натискаючи на кнопку я погоджуюсь
+            <a class="form-terms-link" href="#">з політикою конфіденційності</a>
+          </p>
+        </form>
+      -->
+      
+      <script defer src="./js/modal.js"></script>
+  </body>
+</html>
